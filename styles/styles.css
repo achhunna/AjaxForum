@@ -1,0 +1,31 @@
+body{
+	font-size: 0.9em;
+	font-family: "Helvetica", serif;
+}
+span.right{
+	display: inline-block;
+	float: right;
+	font-size: 0.8em;
+	width: 50%;
+}
+span.timestamp{
+	color: #C0C0C0;
+}
+div.inline{
+	display: inline-block;
+}
+div#mainBlock{
+	width: 100%;
+}
+table#optionsTable{
+	//display: inline-block;
+	border: 1px dotted;
+	padding: 5px;
+	font-size: 0.8em;
+	position: relative;
+	margin-left: 400px;
+}
+textarea{
+	display: inline-block;
+	float: left;
+}
