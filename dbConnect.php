@@ -1,9 +1,5 @@
 <?php
-
-$dbHost = "";
-$dbUser = "";
-$dbPassword = "";
-$dbName = "";
+require("dbPass.php");
 
 $con = mysqli_connect($dbHost, $dbUser, $dbPassword, $dbName);
 // Check connection
