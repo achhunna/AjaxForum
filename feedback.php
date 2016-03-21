@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Achhunna's Feedback</title>
+<title>Feedback Page</title>
 <?php include("default.php"); ?>
 </head>
 
@@ -12,7 +12,7 @@ if(isset($_SESSION["user"])){
 	$user = $_SESSION["user"];
 	$color = queryColor($user);
 	echo "<form>";
-		echo "<div class='inline' id='header'><b>Welcome to Achhunna's feedback page: <font color='".$color."'>".$user."</font></b></div>";
+		echo "<div class='inline' id='header'><b>Welcome to feedback page: <font color='".$color."'>".$user."</font></b></div>";
 		echo "<span class='right'><input type='button' id='optionsButton' value='Options'>";
 		echo "<input type='button' id='logoutButton' value='Log Out'></span><br /><br />";
 		echo "<input type='hidden' name='user' id='user' value=".$user.">";
