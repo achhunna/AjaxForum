@@ -27,6 +27,9 @@ if(isset($_SESSION["user"])){
 				echo "<tr>";
 				echo "<td>Username:</td>";
 				echo "<td><input type='text' size='10' name='username' id='username' /></td>";
+				echo "<td>";
+				echo "<input type='color' id='colorSelect' />";
+				/*
 				echo "<td><select id='colorSelect'>";
 					foreach($htmlColors as $result){
 						if($result[color] == $color){
@@ -36,6 +39,7 @@ if(isset($_SESSION["user"])){
 						}
 					}
 				echo "</select>";
+				*/
 				echo "</td>";
 				echo "</tr>";
 				echo "<tr>";
